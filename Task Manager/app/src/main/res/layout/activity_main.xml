@@ -9,29 +9,6 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/inputFirstName"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:hint="First Name"
-        />
-
-    <EditText
-        android:id="@+id/inputSecondName"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="Second Name"
-        />
-    <Button
-        android:id="@+id/saveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save To Room"
-        android:padding="10dp"
-        android:layout_marginTop="30dp"
-        />
-
     <Button
         android:id="@+id/addTask"
         android:layout_width="wrap_content"
